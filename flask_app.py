@@ -24,7 +24,14 @@ def accueil():
 # ---------------------------------------------------------------
 #  Ajoutez vos nouvelles routes ci-dessous 👇
 # ---------------------------------------------------------------
+@app.get("/presentation")
+def presentation():
+    return "Je m'appelle Fatoumata et je suis étudiante en 3e année de Bachelor à EPSI Paris."
 
+
+@app.get("/loisirs")
+def loisirs():
+    return "Mes loisirs : l'équitation"
 
 
 # ---------------------------------------------------------------
