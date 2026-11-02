@@ -28,7 +28,7 @@ def accueil():
 def presentation():
     return """
     <h1>Fatoumata BA</h1>
-    <p>Je suis en <strong>3e année de Bachelors</strong>à EPSI Paris</p>
+    <p>Je suis en <strong>3e année de Bachelor </strong> à EPSI Paris</p>
     <h2>Ce que j'aime</h2>
     <ul>
         <li>Equitation</li>
