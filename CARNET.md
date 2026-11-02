@@ -47,11 +47,11 @@
 
 2. À quoi servent les balises `<h1>`, `<p>`, `<ul>` et `<li>` ?
 
-   > _Ma réponse :_ <h1> pour le titre principal, <p> pour les paragraphes, <ul> pour la liste à puces, <li> pour les éléments de la liste.
+   > _Ma réponse :_ `<h1>` = titre principal, `<p>` = paragraphe, `<ul>` = liste à puces, `<li>` = élément de la liste.
 
 3. Pourquoi l'image s'affiche-t-elle alors qu'elle n'est pas sur votre serveur ?
 
-   > _Ma réponse :_ La balise <img> donne l'adresse de l'image : le navigateur va la chercher lui-même sur le serveur de Wikipédia.
+   > _Ma réponse :_ La balise `<img>` donne l'adresse de l'image : le navigateur va la chercher lui-même sur le serveur de Wikipédia.
 
 ---
 
