@@ -26,8 +26,17 @@ def accueil():
 # ---------------------------------------------------------------
 @app.get("/presentation")
 def presentation():
-    return "Je m'appelle Fatoumata et je suis étudiante en 3e année de Bachelor à EPSI Paris."
-
+    return """
+    <h1>Fatoumata BA</h1>
+    <p>Je suis en <strong>3e année de Bachelors</strong>à EPSI Paris</p>
+    <h2>Ce que j'aime</h2>
+    <ul>
+        <li>Equitation</li>
+        <li>Athlétisme</li>
+        <li>Les jeux</li>
+    </ul>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="100">
+    """
 
 @app.get("/loisirs")
 def loisirs():
