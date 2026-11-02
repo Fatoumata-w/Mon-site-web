@@ -123,15 +123,15 @@
 
 1. Quelle est la différence visible entre GET et POST ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ En GET, les données apparaissent dans l'URL. En POST, elles n'y sont pas : elles sont dans le corps de la requête.
 
 2. Pour un formulaire de **recherche**, quelle méthode choisiriez-vous ? Et pour un formulaire de **connexion avec mot de passe** ? Pourquoi ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Recherche : GET, pour pouvoir copier ou partager l'URL. Connexion : POST, pour que le mot de passe n'apparaisse pas dans l'URL ni dans l'historique.
 
 3. Les données envoyées en POST sont-elles vraiment « secrètes » ? (Pensez à ce que vous avez vu dans l'onglet Réseau.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Non. On les voit dans F12 - Réseau - Charge utile. Seul le HTTPS les protège pendant le trajet.
 
 ---
 
